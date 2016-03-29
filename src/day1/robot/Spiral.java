@@ -20,7 +20,7 @@ r2d2.setSpeed(1000);
 
 		r2d2.move(5*i);
 		
-		r2d2.turn(360/359);
+		r2d2.turn(360/7);
 			
 		
 r2d2.setPenWidth(i);

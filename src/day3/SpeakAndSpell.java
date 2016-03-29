@@ -14,14 +14,16 @@ import javax.swing.JOptionPane;
 public class SpeakAndSpell {
 
 	public static void main(String[] args) {
-		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-
-		// 2. Catch the user's answer in a String
-
-		// 3. If the user spelled the word correctly, speak "correct"
-
-		// 4. Otherwise say "wrong"
-
+	
+	speak("neighborhood");
+	
+String word=JOptionPane.showInputDialog("Type here.");
+		
+if (word.equals("neighborhood")) { speak("you spell like a god");
+	
+}
+		
+else speak("you spell like dirt");
 		// 5. repeat the process for other words
 		
 	}
@@ -35,5 +37,3 @@ public class SpeakAndSpell {
 	}
 
 }
-
-

@@ -22,7 +22,7 @@ r2d2.setPenWidth(5);
 	}
 		
 	
-			// 8. Turn the robot 90 degrees to the right
+			
 
 	}
 
